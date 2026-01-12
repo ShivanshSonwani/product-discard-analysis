@@ -3,20 +3,20 @@
 ## Overview
 A data analysis project that identifies the top 10 most discarded products in the last 90 days from retail transaction data. This project demonstrates data manipulation, analysis, and visualization skills using Python.
 
-## 🎯 Business Problem
+## Business Problem
 Understanding which products are frequently discarded/returned helps businesses:
 - Identify quality issues
 - Reduce waste and financial losses
 - Make informed inventory decisions
 - Improve product selection strategies
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Python 3.x**
 - **Pandas** - Data manipulation and analysis
 - **Matplotlib** - Data visualization
 - **OpenPyXL** - Excel file handling
 
-## 📁 Project Structure
+## Project Structure
 ```
 ├── analyze_data.py                    # Data processing and analysis script
 ├── create_visualization.py            # Visualization generation script
@@ -26,7 +26,7 @@ Understanding which products are frequently discarded/returned helps businesses:
 └── README.md                          # Project documentation
 ```
 
-## 🔄 Workflow
+## Workflow
 
 ### Step 1: Data Analysis (`analyze_data.py`)
 1. **Load Data**: Reads retail transaction data from Excel file
@@ -48,13 +48,13 @@ Understanding which products are frequently discarded/returned helps businesses:
 **Input**: `final_product_analysis.csv`  
 **Output**: `discarded_products_trend.png`
 
-## 📊 Sample Output
+## Sample Output
 
 ![Discarded Products Trend](discarded_products_trend.png)
 
 The chart shows the top 10 products with the highest discard rates, making it easy to identify problem items at a glance.
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 ```bash
@@ -78,7 +78,7 @@ pip install -r requirements.txt
 ```
 4. View the generated `discarded_products_trend.png`
 
-## 📈 Key Insights
+## Key Insights
 
 The analysis revealed:
 - Top discarded products in the last 90 days
@@ -90,7 +90,7 @@ This data-driven approach enables businesses to:
 - Optimize inventory management
 - Improve product quality control
 
-## 💡 Skills Demonstrated
+## Skills Demonstrated
 - Data cleaning and preprocessing
 - Time-based data filtering
 - Aggregation and grouping operations
@@ -98,10 +98,10 @@ This data-driven approach enables businesses to:
 - Python scripting and automation
 - Business intelligence analysis
 
-## 👤 Author
+## Author
 Shivansh Sonwani
 
-## 📧 Contact
+## Contact
 - LinkedIn: www.linkedin.com/in/shivanshsonwani
 - Email: shivanshsonwani5@gmail.com
 
