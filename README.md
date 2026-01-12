@@ -22,7 +22,6 @@ Understanding which products are frequently discarded/returned helps businesses:
 ├── create_visualization.py            # Visualization generation script
 ├── final_product_analysis.csv         # Processed data output
 ├── discarded_products_trend.png       # Final visualization
-├── requirements.txt                   # Python dependencies
 └── README.md                          # Project documentation
 ```
 
@@ -59,11 +58,6 @@ The chart shows the top 10 products with the highest discard rates, making it ea
 ### Prerequisites
 ```bash
 pip install pandas matplotlib openpyxl
-```
-
-Or install from requirements file:
-```bash
-pip install -r requirements.txt
 ```
 
 ### Execution Steps
